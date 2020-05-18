@@ -13,6 +13,7 @@
 		B9FBB2F62472601C00441B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FBB2F52472601C00441B31 /* Assets.xcassets */; };
 		B9FBB2F92472601C00441B31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FBB2F82472601C00441B31 /* Preview Assets.xcassets */; };
 		B9FBB2FC2472601C00441B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FBB2FA2472601C00441B31 /* LaunchScreen.storyboard */; };
+		B9FBB3042472626900441B31 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FBB3032472626900441B31 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B9FBB2F82472601C00441B31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9FBB2FB2472601C00441B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9FBB2FD2472601C00441B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FBB3032472626900441B31 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B9FBB2FA2472601C00441B31 /* LaunchScreen.storyboard */,
 				B9FBB2FD2472601C00441B31 /* Info.plist */,
 				B9FBB2F72472601C00441B31 /* Preview Content */,
+				B9FBB3032472626900441B31 /* MapForItinerary.swift */,
 			);
 			path = GitHubTest;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FBB3042472626900441B31 /* MapForItinerary.swift in Sources */,
 				B9FBB2F02472601C00441B31 /* AppDelegate.swift in Sources */,
 				B9FBB2F22472601C00441B31 /* SceneDelegate.swift in Sources */,
 				B9FBB2F42472601C00441B31 /* ContentView.swift in Sources */,
