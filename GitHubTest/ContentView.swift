@@ -10,7 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("My new label, a new branch")
+        Button(action: {
+            print("You're finished!")
+        }, label: {
+            Text("Button")
+        })
     }
 }
 
